@@ -1,0 +1,53 @@
+:root{
+    --max-width-for-box: 50em;
+    --big-margin-bottom: 1.5em;
+    --min-width-for-box: 15em;
+    --small-margin-bottom: 0.5em;
+}
+
+section{
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.cv{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.contacts{
+    margin-bottom: var(--big-margin-bottom);
+}
+
+.contact{
+    display: flex;
+    margin-bottom: var(--small-margin-bottom);
+}
+
+.contact-type{
+    min-width: var(--min-width-for-box);
+}
+
+.summary{
+    max-width: var(--max-width-for-box);
+    margin-bottom: var(--big-margin-bottom);;
+}
+
+.skills{
+    max-width: var(--max-width-for-box);
+}
+
+.experience{
+    display: flex;
+    margin-bottom: var(--big-margin-bottom);;
+    max-width: var(--max-width-for-box);
+}
+
+.experience-date{
+    min-width: var(--min-width-for-box);
+}
+
+.experience-name{
+    font-weight: bold;
+    margin-bottom: var(--small-margin-bottom);
+}
