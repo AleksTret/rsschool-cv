@@ -15,8 +15,14 @@ section{
     margin: 0 auto;
 }
 
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+
 .contacts{
     margin-bottom: var(--big-margin-bottom);
+    margin-right: 15em;
 }
 
 .contact{
@@ -25,7 +31,15 @@ section{
 }
 
 .contact-type{
-    min-width: var(--min-width-for-box);
+    min-width: 10em;
+}
+
+.contact-img{
+    margin-bottom: var(--big-margin-bottom);
+}
+
+.contact-img img{
+    max-width: 15em;
 }
 
 .summary{
