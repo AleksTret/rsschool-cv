@@ -1,8 +1,21 @@
 :root{
     --max-width-for-box: 50em;
-    --big-margin-bottom: 1.5em;
     --min-width-for-box: 15em;
+    --big-margin-bottom: 1.5em;
     --small-margin-bottom: 0.5em;
+    --primary-color: #2f80ed;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+h3{
+    color: var(--primary-color);
+}
+
+a{
+    color: var(--primary-color);
 }
 
 section{
@@ -11,7 +24,7 @@ section{
 }
 
 .cv{
-    max-width: 1024px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
